@@ -1,0 +1,95 @@
+.introdaction__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introdaction__image {
+    width: 984px;
+    height: 615px;
+    margin-top: 64px;
+    filter: grayscale();
+}
+
+.introdaction__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 91px;
+    margin-bottom: 32px;
+    max-width: 793px;
+}
+
+.introdaction__description {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 793px;
+    text-align: center;
+    color: white;
+}
+
+.introdaction_main {
+    margin-left: 148px;
+}
+
+.introdaction__subtitle {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    max-width: 785px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.introdaction__quote {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 0;
+    max-width: 720px;
+    color: #FFFFFF;
+}
+
+.introdaction__quote-cite {
+    display: block;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 720px;
+    color: #FFFFFF;
+}
+
+.introdaction__paragraph {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 720px;
+    color: white;
+}
