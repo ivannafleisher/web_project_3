@@ -10,12 +10,11 @@
 
 .place__artist {
     grid-area: heading;
-    align-self: end;
+    align-self: flex-end;
     max-width: 465px;
-    max-width: 288px;
 }
 
-.place__artist-heading {
+.place__artist-title {
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -40,16 +39,17 @@
 .place__title {
     grid-area: title;
     margin: 0;
-    width: 460px;
+    max-width: 460px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
+    align-self: end;
 }
 
-.place__text {
+.place__description {
     grid-area: text;
     display: flex;
     flex-direction: column;
@@ -57,14 +57,14 @@
 }
 
 .place__paragraph {
-    max-width: 484px;
-    min-width: 288px;
-    margin: 0;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
+    max-width: 484px;
+    min-width: 288px;
+    margin: 0;
 }
 
 .place__image {
@@ -74,4 +74,54 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas: "title heading" "image text" "button text";
+    }
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-gap: 0;
+    }
+    .place__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        align-self: flex-start;
+        margin-bottom: 30px;
+    }
+    .place__artist {
+        align-self: flex-start;
+        max-width: 288px;
+        margin-bottom: 30px;
+    }
+    .place__artist-title {
+        margin-bottom: 8px;
+    }
+    .place__description {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .place__paragraph {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 26px;
+    }
 }

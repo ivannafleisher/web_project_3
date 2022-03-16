@@ -3,7 +3,7 @@
 }
 
 .footer__main {
-    background-image: url("../images/__backgroundfooter_back.png");
+    background-image: url("../images/footer_back.png");
     background-position: center;
     background-repeat: no-repeat;
     min-height: 720px;
@@ -30,7 +30,7 @@
 }
 
 .footer__title {
-    font-family: Inter;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -42,28 +42,32 @@
 }
 
 .footer__description {
-    max-width: 280px;
-    font-family: Inter;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    max-width: 280px;
     color: #FFFFFF;
     margin: 0;
     z-index: 1;
 }
 
+.footer__accent {
+    display: block;
+}
+
 .footer__button {
-    background: #0278fe;
-    border-radius: 4px;
-    color: white;
-    padding: 13px 20px;
-    font-family: 'Inter';
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+    background: #0278fe;
+    border-radius: 4px;
+    color: white;
+    padding: 13px 20px;
     text-decoration: none;
     z-index: 1;
 }
@@ -73,7 +77,7 @@
 }
 
 .footer__copyrights {
-    font-family: 'Inter';
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -81,4 +85,21 @@
     color: #FFFFFF;
     text-align: center;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__main {
+        max-height: 320px;
+        min-height: 320px;
+        gap: 16px;
+        margin-bottom: 64px;
+    }
+    .footer__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .footer__description {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
