@@ -11,7 +11,7 @@ This is the third project of the Web Development program at Practicum by Yandex.
 - CSS transform
 
 
-## Published:
+[Published:]
 (https://ivannafleisher.github.io/web_project_3/index.html)
 
 
