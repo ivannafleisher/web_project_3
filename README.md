@@ -1,6 +1,6 @@
-# Practicum Coffee Shop
+# Practicum Art Gallery
 
-This is the second project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.
+This is the third project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.
 
 ## Project features
 
@@ -11,6 +11,4 @@ This is the second project of the Web Development program at Practicum by Yandex
 - A custom form
 - CSS animation and transform
 
-## Plan on improving the project
 
-Add your ideas here :)
