@@ -6,9 +6,13 @@ This is the third project of the Web Development program at Practicum by Yandex.
 
 - Semantic HTML5
 - Flexbox
-- Positioning
+- Grid
 - Flat BEM
-- A custom form
-- CSS animation and transform
+- CSS transform
+
+
+## Published:
+(https://ivannafleisher.github.io/web_project_3/index.html)
+
 
 

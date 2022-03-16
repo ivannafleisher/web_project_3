@@ -1,4 +1,4 @@
-.button {
+/* .button {
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -11,6 +11,24 @@
     border-radius: 4px;
     margin: 0;
     border: none;
+    transition: background 0.4s ease-in;
+} */
+
+.button {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    background: #0278fe;
+    border-radius: 4px;
+    padding: 13px 20px;
+    text-decoration: none;
+    margin: 0;
+    border: none;
+    width: max-content;
+    height: max-content;
     transition: background 0.4s ease-in;
 }
 
