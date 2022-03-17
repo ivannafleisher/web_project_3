@@ -11,7 +11,7 @@
 .place__artist {
     grid-area: heading;
     align-self: flex-end;
-    max-width: 465px;
+    /* max-width: 465px; */
 }
 
 .place__artist-title {
@@ -23,6 +23,7 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #AAAAAA;
+    margin: 0 0 8px;
 }
 
 .place__artist-name {
@@ -39,7 +40,6 @@
 .place__title {
     grid-area: title;
     margin: 0;
-    max-width: 460px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -63,7 +63,7 @@
     font-size: 18px;
     line-height: 29px;
     max-width: 484px;
-    min-width: 288px;
+    /* min-width: 288px; */
     margin: 0;
 }
 
@@ -71,23 +71,21 @@
     grid-area: image;
     max-width: 100%;
     max-height: 100%;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
-@media screen and (min-width: 665px) and (max-width: 768px) {
+@media screen and (gallery_image: 665px) and (max-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
         grid-template-rows: auto auto 1fr;
         grid-template-areas: "title heading" "image text" "button text";
+        grid-column-gap: 28px;
     }
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
     }
     .place__title {
-        max-width: 340px;
         font-size: 42px;
         line-height: 46px;
     }
@@ -95,43 +93,26 @@
 
 @media screen and (min-width: 320px) and (max-width:665px) {
     .place {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        /* flex-direction: column;
         justify-content: center;
-        grid-gap: 0;
-    }
-    .place__paragraph {
-        font-size: 16px;
-        line-height: 26px;
+        align-items: center;
+        grid-gap: 0; */
     }
     .place__title {
-        max-width: 340px;
         font-size: 32px;
         line-height: 35px;
         align-self: flex-start;
-        margin-bottom: 30px;
+        margin: 0 16px 30px;
     }
     .place__artist {
         align-self: flex-start;
-        margin-bottom: 30px;
+        margin: 0 16px 30px;
     }
     .place__artist-title {
-        margin-bottom: 8px;
+        margin: 0 0 8px;
     }
     .place__description {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__title {
-        max-width: 288px;
-    }
-    .place__artist {
-        max-width: 288px;
-    }
-    .place__paragraph {
-        max-width: 288px;
+        margin: 30px 16px;
     }
 }
