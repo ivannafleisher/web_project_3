@@ -74,7 +74,7 @@
     object-fit: cover;
 }
 
-@media screen and (gallery_image: 665px) and (max-width: 768px) {
+@media screen and (min-width: 665px) and (max-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
         grid-template-rows: auto auto 1fr;
