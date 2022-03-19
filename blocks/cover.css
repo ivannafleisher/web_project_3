@@ -72,7 +72,7 @@
     background: #0063D2;
 }
 
-.cover__main:hover::before {
+.cover:hover::before {
     opacity: 0.8;
 }
 
