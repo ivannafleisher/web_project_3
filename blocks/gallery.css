@@ -1,4 +1,4 @@
-.gallery {
+.gallery__list {
     margin: 118px auto 92px;
     max-width: 1184px;
     display: grid;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .gallery {
+    .gallery__list {
         margin-top: 90px;
         margin-bottom: 88px;
         max-width: 720px;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width:665px) {
-    .gallery {
+    .gallery__list {
         margin-bottom: 62px;
         grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
         grid-gap: 12px;

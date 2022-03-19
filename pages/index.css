@@ -12,3 +12,10 @@
 @import url("../blocks/section.css");
 @import url("../blocks/lead.css");
 @import url("../blocks/cover.css");
+body {
+    margin: 0;
+}
+
+html {
+    margin: 0;
+}

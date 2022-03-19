@@ -7,13 +7,15 @@
     color: white;
     background: #0278fe;
     border-radius: 4px;
-    padding: 13px 20px;
+    padding: 13px 0;
+    width: 248px;
     text-decoration: none;
     margin: 0;
     border: none;
-    width: max-content;
     height: max-content;
+    text-align: center;
     transition: background 0.4s ease-in;
+    display: block;
 }
 
 .button:hover {
@@ -23,6 +25,6 @@
 @media screen and (min-width: 320px) and (max-width:655px) {
     .button {
         margin: 0 16px;
-        padding: 13px 40px;
+        width: 288px;
     }
 }

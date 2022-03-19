@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 999px) {
     .section_type_narrow {
         width: calc(100% - 24px*2);
     }

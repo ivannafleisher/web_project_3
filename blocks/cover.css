@@ -87,6 +87,7 @@
         min-height: 254px;
         gap: 16px;
         margin-bottom: 64px;
+        margin-top: 64px;
     }
     .cover__title {
         font-size: 32px;
