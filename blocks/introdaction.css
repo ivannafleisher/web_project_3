@@ -39,11 +39,17 @@
     color: white;
 }
 
+@media screen and (min-width: 1280px) {
+    .introdaction__image {
+        width: 984px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .introdaction__title {
         max-width: 720px;
     }
-    .footer__description {
+    .introdaction__description {
         max-width: 720px;
     }
     .introdaction__image {
