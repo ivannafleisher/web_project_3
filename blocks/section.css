@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width:665px) {
     .section_type_narrow {
         width: 100%;
     }
